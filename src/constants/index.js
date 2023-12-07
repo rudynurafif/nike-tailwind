@@ -54,21 +54,25 @@ export const products = [
     imgURL: shoe4,
     name: 'Nike Air Jordan-01',
     price: '$200.20',
+    rating: 4.6
   },
   {
     imgURL: shoe5,
     name: 'Nike Air Jordan-10',
     price: '$210.20',
+    rating: 4.7
   },
   {
     imgURL: shoe6,
     name: 'Nike Air Jordan-100',
     price: '$220.20',
+    rating: 4.5
   },
   {
     imgURL: shoe7,
     name: 'Nike Air Jordan-001',
     price: '$230.20',
+    rating: 4.8
   },
 ];
 
@@ -132,8 +136,8 @@ export const footerLinks = [
   {
     title: 'Get in touch',
     links: [
-      { name: 'customer@nike.com', link: 'mailto:customer@nike.com' },
-      { name: '+92554862354', link: 'tel:+92554862354' },
+      { name: 'rudynurafif@gmail.com', link: 'mailto:rudynurafif@gmail.com' },
+      { name: '+62 895 3859 84960', link: 'tel:+62895385984960' },
     ],
   },
 ];
