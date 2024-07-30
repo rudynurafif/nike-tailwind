@@ -5,7 +5,7 @@ import { footerLinks, socialMedia } from '../constants';
 const Footer = () => {
   return (
     <footer className='max-container'>
-      <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col'>
+      <div className='flex justify-between items-start gap-20    max-lg:flex-col'>
         <div className='flex flex-col items-start'>
           <a href='/'>
             <img src={footerLogo} alt='footer-logo' width={150} height={46} />
@@ -38,6 +38,7 @@ const Footer = () => {
                     key={link.name}
                     className='mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer'
                   >
+                    {/* <a href={link.link}>{link.name}</a> */}
                     {link.name}
                   </li>
                 ))}
@@ -47,8 +48,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center'>
-        <div className='flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer'>
+      <div className='flex justify-between text-white-400 mt-24 max-sm:flex-col gap-3 max-sm:items-center'>
+        <div className='flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer hover:text-slate-gray'>
           <img
             src={copyrightSign}
             alt='copyright'
